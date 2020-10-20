@@ -1,0 +1,9 @@
+
+note over user:
+user writes something into the text field
+end note
+
+user->browser: user clicks the submit button
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa, contains the new note as JSON-data
+server-->browser: status code 201 created, the request has been fulfilled and has resulted in one or more new resources being created
+
