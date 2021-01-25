@@ -1,5 +1,6 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:3001/notes'
+//const baseUrl = 'http://localhost:3001/notes' //for local json file
+const baseUrl = 'http://localhost:3001/api/notes' //for local server backend
 
 //the 'then' method of a promise also returns a promise
 
