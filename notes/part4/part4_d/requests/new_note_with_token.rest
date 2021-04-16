@@ -1,0 +1,8 @@
+post http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI2MDc0ZmQ3NTcyNTVhMDVkNzI4Y2U0MGMiLCJpYXQiOjE2MTgyODAwNDJ9.be2mUFOr_-Qvn8LO8umW10OHQv6Zr16-gCEgWQ-iwzA
+
+{
+    "content": "hello from vs code",
+    "important": false
+}
